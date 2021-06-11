@@ -45,10 +45,10 @@ public class Student {
         this.dob = dob;
     }
 
-    public void setId(Long id){
-        this.id = id;
-    }
 
+    public Long getId(Long id){
+        return id;
+    }
 
     public void setName(String name){
         this.name = name;
